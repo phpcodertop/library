@@ -21,8 +21,8 @@
         <div class="col-md-7">
             <h6>By: {{ $book->author }}</h6>
             <h1>{{ $book->name }}</h1>
-            <h6>ISBN: {{ $book->author }}</h6>
-            <h6>Release Year: {{ $book->author }}</h6>
+            <h6>ISBN: {{ $book->isbn }}</h6>
+            <h6>Release Year: {{ $book->year }}</h6>
             <p>{{ $book->description }}</p>
             @if(! $book->isBorrowed)
                 <a href="{{ url('/borrow/'.$book->id) }}" class="btn btn-success">Borrow this book.</a>
