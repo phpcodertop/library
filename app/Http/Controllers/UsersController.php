@@ -72,13 +72,15 @@ class UsersController extends Controller
      * @return \Illuminate\Http\RedirectResponse
      */
     public function sendEmail($idOrAll) {
+        $from = env('MAIL_FROM_NAME');
         if ($idOrAll != 'all') {
             $user = User::findOrFail($idOrAll);
             $email = $user->email;
             $username = $user->name;
-            Mail::send('email', ['username' => $username, 'email' => $email], function ($message) use ($email)
+            Mail::send('email', ['username' => $username, 'email' => $email], function ($message) use ($email, $from)
             {
-                $message->from('mohammedanwar@gmail.com', 'Mohamed Anwar');
+
+                $message->from($from, $from);
                 $message->subject('You are late in returning the book you have borrowed');
                 $message->to($email);
             });
@@ -88,9 +90,9 @@ class UsersController extends Controller
         foreach ($books as $book) {
             $email = $book->user->email;
             $username = $book->user->name;
-            Mail::send('email', ['username' => $username, 'email' => $email], function ($message) use ($email)
+            Mail::send('email', ['username' => $username, 'email' => $email], function ($message) use ($email, $from)
             {
-                $message->from('mohammedanwar@gmail.com', 'Mohamed Anwar');
+                $message->from($from, $from);
                 $message->subject('You are late in returning the book you have borrowed');
                 $message->to($email);
             });

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="422d0a37-a0d9-49b9-b6d4-f7447cc9e5b4" name="Default Changelist" comment="" />
+    <list default="true" id="422d0a37-a0d9-49b9-b6d4-f7447cc9e5b4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -172,7 +174,7 @@
       <workItem from="1590464774420" duration="576000" />
       <workItem from="1590467296731" duration="4567000" />
       <workItem from="1590795403320" duration="1978000" />
-      <workItem from="1591135145965" duration="4006000" />
+      <workItem from="1591135145965" duration="4526000" />
     </task>
     <servers />
   </component>
