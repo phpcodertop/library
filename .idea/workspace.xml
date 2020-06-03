@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="422d0a37-a0d9-49b9-b6d4-f7447cc9e5b4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +174,7 @@
       <workItem from="1590464774420" duration="576000" />
       <workItem from="1590467296731" duration="4567000" />
       <workItem from="1590795403320" duration="1978000" />
-      <workItem from="1591135145965" duration="4526000" />
+      <workItem from="1591135145965" duration="5610000" />
     </task>
     <servers />
   </component>
@@ -187,9 +187,10 @@
     </state>
     <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1590163301863" />
     <state x="1938" y="95" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1590471863216" />
-    <state x="1896" y="185" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1590469720735">
-      <screen x="1366" y="0" width="1600" height="860" />
+    <state x="452" y="157" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1591150513726">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="452" y="157" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1591150513726" />
     <state x="1896" y="185" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1590469720735" />
   </component>
 </project>

@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Book;
+use App\Borrow;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
 use Yajra\Datatables\Datatables as DataTable;
@@ -130,6 +131,8 @@ class BooksController extends Controller
      */
     public function delete(Book $book) {
         @unlink(public_path('images').'/'.$book->image);
+        $borrowedBook = Borrow::where('book_id', $book->id)->first();
+        if ($borrowedBook) { $borrowedBook->delete(); }
         $book->delete();
         return redirect()->to('/manage-books')->with('message','Book Deleted Successfully.');
     }
