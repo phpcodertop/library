@@ -31,7 +31,7 @@
                                 <td>Send A remainder Email</td>
                             </tr>
                             @forelse($books as $book)
-                                <td>{{ $book->user->id }}</td>
+                                <td>{{ $book->id }}</td>
                                 <td>{{ $book->book->name }}</td>
                                 <td>{{ Carbon\Carbon::parse($book->delivery_date)->format('d-m-Y') }}</td>
                                 <td>{{ $book->user->name }}</td>
